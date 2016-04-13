@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="lab2" name="rec" type="record.py" args="--test" respawn="true" />
+
+
+</launch>

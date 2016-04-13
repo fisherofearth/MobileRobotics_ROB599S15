@@ -1,0 +1,8 @@
+<launch>
+  <arg name = "filename" />
+  <node pkg="lab2" name="rec" type="record.py"  args = "111 respawn="true" />
+	
+  <node pkg="lab2" name="run" type="move2.py"  respawn="true" />
+
+
+</launch>
